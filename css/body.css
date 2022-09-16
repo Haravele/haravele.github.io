@@ -1,0 +1,114 @@
+.main-container {
+  display: grid;
+  width: 450px;
+  height: auto;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 6px 30px 35px hsl(223, 62%, 84%);
+  margin-top: 9rem;
+}
+
+.main-container img {
+  border-radius: 20px 20px 0 0;
+}
+
+.order-div {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  font-size: 1.8rem;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 20px;
+}
+
+.intro-div {
+  text-align: center;
+  margin:0px 50px 0px 40px;
+  line-height: 25px;
+}
+
+.sub-div {
+  width: 350px;
+  height: 85px;
+  background-color: hsl(225, 100%, 98%);
+  margin: 20px 20px 10px 50px;
+  border-radius: 10px;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.annual-div {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin: 10px 0 0 18px;
+}
+
+.plan-change-div {
+  font-weight: 700;
+  margin: 10px 0 0 90px;
+  font-size: 14px;
+}
+
+.payment-div {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+
+.payment-button {
+  width: 350px;
+  height: 50px;
+  background-color: hsl(245, 75%, 52%);
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 10px;
+  color: hsl(223, 47%, 23%);
+  box-shadow: 3px 7px 14px hsl(245, 40%, 75%);
+}
+
+.payment-button:hover {
+  background-color: hsl(224, 73%, 66%);
+}
+
+.payment-button-2 {
+  width: 350px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.payment-button-2 a {
+ text-decoration: none;
+ font-weight: 700;
+ color: hsl(224, 23%, 55%);
+}
+.payment-button-2:hover a {
+ color: hsl(223, 47%, 23%);
+}
+
+.payment-button p {
+  font-weight: 700;
+  margin-top: 15px;
+  color: white;
+}
+
+.payment-button:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
