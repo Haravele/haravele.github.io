@@ -15,8 +15,8 @@ body {
   background-size: contain;
   background-position: 10px 5px;
   background-color: hsl(225, 100%, 94%);
-  background-attachment: fixed;
-  max-width: 450px;
-  margin: auto;
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
